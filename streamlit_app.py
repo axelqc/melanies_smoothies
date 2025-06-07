@@ -40,4 +40,4 @@ if ingredients_list:
 
 # display nutrition information via API
 smoothieroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothieroot_response)
+sf_df = st.dataframe(data=smoothieroot_response.json(), use_container_wigth=True)
