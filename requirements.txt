@@ -1,3 +1,2 @@
-
-snowflake-snowpark-pyhon
 streamlit
+snowflake-connector-python
